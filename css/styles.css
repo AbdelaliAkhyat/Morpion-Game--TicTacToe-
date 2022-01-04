@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    background-color:rgb(217, 231, 238);
+}
+
+#title{
+    padding: 20px;
+    display: flex;
+    min-height: 4vh;
+    max-width: 200vh;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    position: relative;  
+    bottom: 1em; 
+    margin-left: 1.2em;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px #d1d9e6,
+                1px 1px 2px #d1d9e6,
+                3px 3px 3px #d1d9e6,
+                4px 4px 4px #d1d9e6,
+                5px 5px 5px #d1d9e6, 
+                6px 6px 6px #d1d9e6,
+                7px 7px 7px #d1d9e6,
+                8px 8px 8px #d1d9e6;
+                letter-spacing: 6px;
+}
+
+h2 span{
+color: #7a1b03;
+font-size: 45px;  
+}
+    
+.calculator {
+    justify-content: center;
+    align-items: center;
+    min-height: 23vh;
+    max-width: 81vh;
+    user-select: none;
+    background: #ecf0f3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+}
+
+.case{
+    border: 5px solid black;
+    border-style: outset;
+    border-color: red;
+    background-color: yellow;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+#recommencer{
+    width: 156px;
+    height: 38px;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    margin: 9px;
+    border-radius: 24px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #000000, -5px -5px 8px rgb(202 10 10);
+}
